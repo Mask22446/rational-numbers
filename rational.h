@@ -6,7 +6,6 @@
 #ifndef RATIONAL_H
 #define RATIONAL_H
 
-// put your class definition here
 class Rational{
   private:
    int top;
