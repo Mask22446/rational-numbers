@@ -12,13 +12,10 @@ using namespace std;
 
 int main()
 {
-   // Declare your Rational object here
    Rational frac;
 
-   // Call your prompt function here
    frac.prompt();
 
-   // Call your display functions here
    frac.display();
    frac.displayDecimal();
    frac.multiplyBy();
