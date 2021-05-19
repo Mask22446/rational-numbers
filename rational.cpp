@@ -9,7 +9,6 @@
 
 using namespace std;
 
-// put your method bodies here
 
 void Rational::prompt(){
    cout << "Top: ";
@@ -39,12 +38,17 @@ void Rational::displayDecimal(){
 
    cout << value <<endl;
 }
-
+/***************************************
+* Display number in format :x x/x
+***************************************/
 void Rational::reduce(){
    if(bottom % top == 0){
       cout<< top/top << "/" << bottom/top << endl;
    }
 }
+/************************************
+* Multiple by new number
+************************************/
 
 void Rational::multiplyBy(){
    cout << top * newOne << "/" << bottom * newOne;
